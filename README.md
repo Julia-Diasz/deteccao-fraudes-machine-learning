@@ -3,7 +3,7 @@ Detecção de Fraudes com Machine Learning
 </h1>
 
 <p align="center">
-<img width="700" src="assets/capa.png">
+<img width="700" src="deteccao-fraudes-machine-learning/assets/capa.png">
 </p>
 
 <p align="center">
@@ -122,25 +122,25 @@ Após o treinamento e avaliação do modelo, foram geradas métricas e visualiza
 <h3>Curva ROC</h3>
 
 <p align="center">
-<img width="700" src="assets/roc-curve.png">
+<img width="700" src="deteccao-fraudes-machine-learning/assets/roc-curve.png">
 </p>
 
 <h3>Precisão e Recall</h3>
 
 <p align="center">
-<img width="700" src="assets/precision-recall.png">
+<img width="700" src="deteccao-fraudes-machine-learning/assets/precision-recall.png">
 </p>
 
 <h3>Importância das Variáveis</h3>
 
 <p align="center">
-<img width="700" src="assets/importancia-das-variaveis.png">
+<img width="700" src="deteccao-fraudes-machine-learning/assets/importancia-das-variaveis.png">
 </p>
 
 <h3>Interpretação com SHAP</h3>
 
 <p align="center">
-<img width="700" src="assets/shap-importance.png">
+<img width="700" src="deteccao-fraudes-machine-learning/assets/shap-importance.png">
 </p>
 
 <hr>
@@ -188,19 +188,11 @@ Execute as células sequencialmente para reproduzir os resultados.
 <h2>Conclusão</h2>
 
 <p>
-O desenvolvimento deste projeto permitiu compreender etapas importantes de um fluxo completo de Machine Learning aplicado à detecção de fraudes financeiras.
-</p>
+O desenvolvimento deste projeto permitiu compreender etapas importantes de um fluxo completo de Machine Learning aplicado à detecção de fraudes financeiras. 
+  
+Durante a implementação foram exploradas etapas como análise de dados, tratamento das informações, treinamento do modelo e interpretação dos resultados obtidos. Além da avaliação por métricas tradicionais, recursos visuais como curvas de desempenho e análise de importância das variáveis permitiram compreender quais fatores influenciaram as previsões realizadas pelo modelo.
 
-<p>
-Durante a implementação foram exploradas etapas como análise de dados, tratamento das informações, treinamento do modelo e interpretação dos resultados obtidos.
-</p>
-
-<p>
-Além da avaliação por métricas tradicionais, recursos visuais como curvas de desempenho e análise de importância das variáveis permitiram compreender quais fatores influenciaram as previsões realizadas pelo modelo.
-</p>
-
-<p>
-O projeto contribuiu para ampliar conhecimentos em análise de dados, modelagem preditiva e interpretação de modelos de aprendizado de máquina.
+Em suma, o projeto contribuiu para ampliar conhecimentos em análise de dados, modelagem preditiva e interpretação de modelos de aprendizado de máquina.
 </p>
 
 <hr>
