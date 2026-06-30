@@ -3,7 +3,7 @@ Detecção de Fraudes com Machine Learning
 </h1>
 
 <p align="center">
-<img width="700" src="./assets/capa.png">
+<img width="700" src="assets/capa.png">
 </p>
 
 <p align="center">
@@ -122,25 +122,25 @@ Após o treinamento e avaliação do modelo, foram geradas métricas e visualiza
 <h3>Curva ROC</h3>
 
 <p align="center">
-<img width="700" src="./assets/roc-curve.png">
+<img width="700" src="assets/roc-curve.png">
 </p>
 
 <h3>Precisão e Recall</h3>
 
 <p align="center">
-<img width="700" src="./assets/precision-recall.png">
+<img width="700" src="assets/precision-recall.png">
 </p>
 
 <h3>Importância das Variáveis</h3>
 
 <p align="center">
-<img width="700" src="./assets/importancia-das-variaveis.png">
+<img width="700" src="assets/importancia-das-variaveis.png">
 </p>
 
 <h3>Interpretação com SHAP</h3>
 
 <p align="center">
-<img width="700" src="./assets/shap-importance.png">
+<img width="700" src="assets/shap-importance.png">
 </p>
 
 <hr>
@@ -168,7 +168,7 @@ Abra o arquivo:
 </ol>
 
 <pre><code>
-Detecção_de_fraudes_em_transações.ipynb
+deteccao_de_fraudes_em_transacoes.ipynb
 </code></pre>
 
 <ol start="3">
