@@ -3,7 +3,7 @@ Detecção de Fraudes com Machine Learning
 </h1>
 
 <p align="center">
-<img width="700" src="./images/capa.png">
+<img width="700" src="./assets/capa.png">
 </p>
 
 <p align="center">
@@ -70,8 +70,6 @@ Fraudes financeiras geram prejuízos significativos para empresas e usuários. D
 
 <hr>
 
-#seis supostamente aq
-
 <h2>Etapas Desenvolvidas</h2>
 
 <ol>
@@ -107,7 +105,15 @@ deteccao-fraudes-machine-learning/
 │   ├── roc-curve.png
 │   └── shap-importance.png
 │
-└── Detecção_de_fraudes_em_transações.ipynb
+├── notbooks/
+|   └── Detecção_de_fraudes_em_transações.ipynb
+|
+├── data/
+|   └── dataset_info.txt
+|
+├── requirements.txt
+|
+└── README.md
 </pre></code>
 
 <p>
