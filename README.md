@@ -105,14 +105,14 @@ deteccao-fraudes-machine-learning/
 │   ├── roc-curve.png
 │   └── shap-importance.png
 │
-├── notbooks/
-|   └── Detecção_de_fraudes_em_transações.ipynb
-|
+├── notebooks/
+│   └── deteccao_de_fraudes_em_transacoes.ipynb
+│
 ├── data/
-|   └── dataset_info.txt
-|
+│   └── dataset_info.txt
+│
 ├── requirements.txt
-|
+│
 └── README.md
 </pre></code>
 
