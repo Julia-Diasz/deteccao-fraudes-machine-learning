@@ -111,9 +111,8 @@ deteccao-fraudes-machine-learning/
 ├── data/
 │   └── dataset_info.txt
 │
-├── requirements.txt
-│
-└── README.md
+└── requirements.txt
+
 </pre></code>
 
 <p>
