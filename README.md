@@ -117,6 +117,28 @@ A Regressão Logística foi aplicada para identificar padrões presentes nos dad
 
 <hr>
 
+<h2> A necessidade de diferentes métricas</h2>
+
+<p>
+Após a aplicação do modelo no conjunto de dados, a acurácia pode apresentar valores elevados, indicando um alto número de previsões corretas de transações legítimas. À primeira vista, esse resultado pode sugerir um bom desempenho do modelo. No entanto, ao analisar a distribuição do dataset, observa-se um forte desbalanceamento entre as classes, com predominância de transações não fraudulentas e uma quantidade muito reduzida de casos de fraude.
+</p>
+
+<img width="700" src="deteccao-fraudes-machine-learning/assets/acuracia.png">
+
+<p>
+Esse cenário pode levar a uma interpretação equivocada da performance do modelo, uma vez que a acurácia não é suficiente para avaliar adequadamente problemas desbalanceados. Em situações como essa, um modelo pode atingir alta acurácia mesmo sendo incapaz de identificar corretamente as fraudes, apenas por aprender a classificar a maioria das observações como classe majoritária.
+</p>
+
+<p>
+Dessa forma, torna-se necessário o uso de outras métricas de avaliação, como precisão (precision), revocação (recall) e F1-score, que permitem uma análise mais equilibrada do desempenho do modelo. A precisão indica a proporção de previsões positivas que estão corretas, enquanto o recall avalia a capacidade do modelo de identificar corretamente as fraudes reais. Já o F1-score combina essas duas métricas, oferecendo uma visão mais robusta em cenários de desbalanceamento.
+</p>
+
+<p>
+Por fim, também se destaca a importância de técnicas complementares, como o feature engineering, que consiste na criação e transformação de variáveis para melhorar a capacidade do modelo de aprender padrões relevantes nos dados, contribuindo assim para um desempenho mais consistente em dados reais e futuros.
+</p>
+
+<img width="700" src="deteccao-fraudes-machine-learning/assets/feature-engineering.png">
+
 <h2>Estrutura do Projeto</h2>
 
 <pre><code>
@@ -124,6 +146,7 @@ deteccao-fraudes-machine-learning/
 │
 ├── assets/
 │   ├── capa.png
+|   ├── class.png
 │   ├── notebook-preview.png
 │   ├── importancia-das-variaveis.png
 │   ├── precision-recall.png
@@ -140,9 +163,7 @@ deteccao-fraudes-machine-learning/
 
 </pre></code>
 
-<p>
-Após o treinamento e avaliação do modelo, foram geradas métricas e visualizações para compreender o desempenho da detecção de fraudes.
-</p>
+<h2>Métricas e visualizações utilizadas</h2>
 
 <h3>Curva ROC</h3>
 
