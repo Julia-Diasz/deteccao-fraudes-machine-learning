@@ -92,6 +92,31 @@ Fraudes financeiras geram prejuízos significativos para empresas e usuários. D
 
 <hr>
 
+<h2>Sobre os dados e método utilizados</h2>
+
+<p>
+O modelo utilizado neste projeto foi a <b>Regressão Logística</b>, técnica amplamente aplicada em problemas de classificação binária.
+</p>
+
+<p>
+O conjunto de dados utilizado consiste em registros de transações financeiras, contendo diferentes variáveis relacionadas às operações realizadas. Entre os atributos disponíveis, a variável <b>Classe</b> foi utilizada como variável alvo, sendo responsável por classificar as transações em:
+</p>
+
+<ul>
+<li><b>0:</b> transação legítima (não fraudulenta);</li>
+<li><b>1:</b> transação fraudulenta.</li>
+</ul>
+
+<p align="center">
+<img width="700" src="deteccao-fraudes-machine-learning/assets/.png">
+</p>
+
+<p>
+A Regressão Logística foi aplicada para identificar padrões presentes nos dados e estimar a probabilidade de uma transação pertencer à categoria de fraude, permitindo a classificação entre operações legítimas e suspeitas.
+</p>
+
+<hr>
+
 <h2>Estrutura do Projeto</h2>
 
 <pre><code>
