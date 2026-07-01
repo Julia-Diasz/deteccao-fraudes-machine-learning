@@ -123,7 +123,9 @@ A Regressão Logística foi aplicada para identificar padrões presentes nos dad
 Após a aplicação do modelo no conjunto de dados, a acurácia pode apresentar valores elevados, indicando um alto número de previsões corretas de transações legítimas. À primeira vista, esse resultado pode sugerir um bom desempenho do modelo. No entanto, ao analisar a distribuição do dataset, observa-se um forte desbalanceamento entre as classes, com predominância de transações não fraudulentas e uma quantidade muito reduzida de casos de fraude.
 </p>
 
+<p align="center">
 <img width="700" src="deteccao-fraudes-machine-learning/assets/acuracia.png">
+</p>
 
 <p>
 Esse cenário pode levar a uma interpretação equivocada da performance do modelo, uma vez que a acurácia não é suficiente para avaliar adequadamente problemas desbalanceados. Em situações como essa, um modelo pode atingir alta acurácia mesmo sendo incapaz de identificar corretamente as fraudes, apenas por aprender a classificar a maioria das observações como classe majoritária.
@@ -137,7 +139,9 @@ Dessa forma, torna-se necessário o uso de outras métricas de avaliação, como
 Por fim, também se destaca a importância de técnicas complementares, como o feature engineering, que consiste na criação e transformação de variáveis para melhorar a capacidade do modelo de aprender padrões relevantes nos dados, contribuindo assim para um desempenho mais consistente em dados reais e futuros.
 </p>
 
+<p align="center">
 <img width="700" src="deteccao-fraudes-machine-learning/assets/feature-engineering.png">
+</p>p
 
 <h2>Estrutura do Projeto</h2>
 
