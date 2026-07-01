@@ -141,7 +141,7 @@ Por fim, também se destaca a importância de técnicas complementares, como o f
 
 <p align="center">
 <img width="700" src="deteccao-fraudes-machine-learning/assets/feature-engineering.png">
-</p>p
+</p>
 
 <h2>Estrutura do Projeto</h2>
 
@@ -149,8 +149,10 @@ Por fim, também se destaca a importância de técnicas complementares, como o f
 deteccao-fraudes-machine-learning/
 │
 ├── assets/
+|   ├── acuracia.png
 │   ├── capa.png
 |   ├── class.png
+|   ├── feature-engineering.png
 │   ├── notebook-preview.png
 │   ├── importancia-das-variaveis.png
 │   ├── precision-recall.png
