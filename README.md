@@ -108,7 +108,7 @@ O conjunto de dados utilizado consiste em registros de transações financeiras,
 </ul>
 
 <p align="center">
-<img width="700" src="deteccao-fraudes-machine-learning/assets/.png">
+<img width="700" src="deteccao-fraudes-machine-learning/assets/class.png">
 </p>
 
 <p>
